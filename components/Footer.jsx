@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=" bg-slate-500 px-20 rounded-lg mx-auto flex flex-wrap items-center justify-between py-10 lg:py-16">
+    <footer className=" bg-slate-500 px-20 rounded-lg m-10 flex flex-wrap items-center justify-between py-10 lg:py-16">
       <div className="w-6/12 lg:w-3/12">
         <p>Customer Service</p>
         <button className="block mt-2">Help/FAQ</button>

@@ -2,6 +2,7 @@
 import React from 'react'
 import productsData from "../../../data/products.json";
 import Image from 'next/image';
+import Footer from '@/components/Footer';
 
 const allProducts = productsData.products;
 
@@ -12,7 +13,7 @@ export default function ProductPage({ params }) {
 
     return (
         <main className="h-screen">
-            <section className="bg-[#fafaf2] h-full py-20">
+            <section className="bg-[#fafaf2] h-full py-20 mb-10">
                 <div className="w-11/12 lg:w-8/12 max-w-7xl mx-auto flex flex-col gap-12 lg:flex-row items-center justify-between">
                     <div className="w-full lg:w-7/12 border border-slate-500/20 p-4">
                         <Image
@@ -51,6 +52,7 @@ export default function ProductPage({ params }) {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </main>
 
     )

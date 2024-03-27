@@ -13,6 +13,7 @@ const Products = () => {
       ))}
       </div>
       </section>
+      
     </main>
   );
 };
